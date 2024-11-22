@@ -51,7 +51,7 @@ Run button on shelf to open Vertex Animation Texture GUI
 
 #### Limitations
 - Doesn't support hard edges - ensure all edges is shaded soft/smooth. Bevel or disconnect edges if you really need hard edges.
-- Meshes above 4096 vertices are at risk of breaking and might require manual tweaking of UVs
+- Meshes above 4096 vertices are at risk of breaking and might require manual tweaking of UVs - You might be able to mitigate this be ordering the vertices in Maya
 - Vertex position is based off local transforms, ensure that mesh has frozen transforms and any animations aren't directly parented to the mesh pivot. E.g Transform constraints and order heirarchy. use a full weight joint as a buffer since skinning is fine. If the mesh channel box changes values then it probably won't work.
 - Joint-based animations may need the mesh to be manually exported from frame 0 via duplicating then exporting if frame 0 is not rig rest pose.
 
