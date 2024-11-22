@@ -33,7 +33,14 @@ Install Qt.py wrapper to Maya Scripts
 ```
 *\Documents\maya\2023\scripts\Qt.py
 ```
-Run button to open Vertex Animation Texture GUI
+Run button on shelf to open Vertex Animation Texture GUI
+
+####Using the premade UE materials
+- Add the VAT folder inside of the content folder in your Unreal Project
+- Make an instance of the MM_demo_MayaToUnreal_VAT material and import your texture maps.
+- Make sure textures have SRGB turned off!!!
+- Ensure scale setting is the same as used to bake in Maya.
+- Make any changes you need.
 
 #### How to use?
 - Select a mesh
