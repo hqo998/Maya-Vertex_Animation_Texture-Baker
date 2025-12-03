@@ -1,3 +1,4 @@
+***Inactive - Feel free to fork***
 
 # Maya - Vertex Animation Texture Baker
 
